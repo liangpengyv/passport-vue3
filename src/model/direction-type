@@ -1,0 +1,8 @@
+const DirectionType = {
+  OUT_SCHOOL: 0,
+  IN_SCHOOL: 1,
+}
+
+Object.freeze(DirectionType)
+
+export default DirectionType
