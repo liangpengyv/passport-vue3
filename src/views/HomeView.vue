@@ -8,8 +8,8 @@ const router = useRouter()
 
 const userInfo = useUserInfoStore()
 
-const directionType = ref(DirectionType.OUT_SCHOOL)
-const name = ref('')
+const directionType = ref(userInfo.direction)
+const name = ref(userInfo.name)
 const nameInputError = ref(false)
 
 const onConfirmClick = () => {
